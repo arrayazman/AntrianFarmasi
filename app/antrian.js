@@ -20,7 +20,12 @@ function pengaturan() {
           
       });
   });
-    
+ 
+  
+}
+$(document).ready(function() {
+        pengaturan();
+});   
 //=========================================================================
       // Fungsi pemanggil
       function Suara() {
